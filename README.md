@@ -86,3 +86,7 @@ function fibonacci(n):
         return 1
     return fibonacci(n-1) + fibonacci(n-2)
 ```
+
+## メタな内容
+
+各言語・環境のブランチを作成するときに、作成する人が LLM 支援で作成できるようにするため、[`instruction_template.md`](./instruction_template.md) を用意してある。LLM への指示例として、大いに活用してほしい。
