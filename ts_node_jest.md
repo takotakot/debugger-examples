@@ -5,14 +5,6 @@
 ### 環境の準備
 
 ```shell
-# Node.js のインストール
-sudo apt update && sudo apt install -y nodejs npm
-
-# TypeScript のインストール
-npm install -g typescript
-
-# Jest のインストール
-npm install --save-dev jest @types/jest ts-jest
 ```
 
 ### 拡張機能
@@ -35,7 +27,14 @@ npm install --save-dev jest @types/jest ts-jest
 ### 環境の準備手順
 
 ```shell
-# 上記のコマンドを参照
+# Node.js のインストール
+sudo apt update && sudo apt install -y nodejs npm
+
+# TypeScript のインストール
+npm install -g typescript
+
+# Jest のインストール
+npm install --save-dev jest @types/jest ts-jest
 ```
 
 ### ドキュメント・関連リソース
