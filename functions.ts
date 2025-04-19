@@ -33,10 +33,16 @@ export function bubble_sort(array: number[]): number[] {
 }
 
 /**
- * 常に 0 を返す関数。
- * @param n - 任意の整数。
- * @returns 常に 0 を返す。
+ * フィボナッチ数列の n 番目の値を計算する関数。
+ * @param n - 正の整数。
+ * @returns フィボナッチ数列の n 番目の値。正の整数以外の場合は 0 を返す。
  */
 export function fibonacci(n: number): number {
-    return 0;
+    if (n <= 0 || !Number.isInteger(n)) {
+        return 0;
+    }
+    if (n === 1) {
+        return 1;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
