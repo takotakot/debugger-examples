@@ -46,6 +46,12 @@ npm init -y
 npm install --save-dev jest @types/jest ts-jest
 ```
 
+以下のコマンドで `ts-jest` の初期設定を行った。
+
+```bash
+npx ts-jest config:init
+```
+
 ### ドキュメント・関連リソース
 
 - [Node.js](https://nodejs.org/)
