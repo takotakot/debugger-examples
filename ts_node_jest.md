@@ -9,9 +9,8 @@
 
 ### 拡張機能
 
-以下をインストール:
-
-- Debugger for Node.js ms-vscode.node-debug2
+JavaScript Debugger ms-vscode.js-debugger
+は、予め、環境にインストールされているように見える。
 
 ### デバッガの設定
 
