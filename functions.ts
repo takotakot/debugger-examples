@@ -15,11 +15,20 @@ export function sum_to_n(n: number): number {
 }
 
 /**
- * 常に与えられた配列を返す関数。
- * @param array - 任意の整数配列。
- * @returns 入力された配列をそのまま返す。
+ * 整数の配列をバブルソートでソートする関数。
+ * @param array - ソート対象の整数配列。
+ * @returns ソート済みの整数配列。
  */
 export function bubble_sort(array: number[]): number[] {
+    const n = array.length;
+    for (let i = 0; i < n - 1; i++) {
+        for (let j = 0; j < n - i - 1; j++) {
+            if (array[j] > array[j + 1]) {
+                // 値を交換
+                [array[j], array[j + 1]] = [array[j + 1], array[j]];
+            }
+        }
+    }
     return array;
 }
 
