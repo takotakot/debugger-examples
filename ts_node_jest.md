@@ -52,6 +52,8 @@ npm install --save-dev jest @types/jest ts-jest
 npx ts-jest config:init
 ```
 
+`functions.test.ts` に3関数のテストを実装させ、その後、テストを修正させた。
+
 ### ドキュメント・関連リソース
 
 - [Node.js](https://nodejs.org/)
