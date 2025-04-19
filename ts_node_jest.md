@@ -39,6 +39,13 @@ npm install --save-dev jest @types/jest ts-jest
 
 `functions.ts` に3関数を実装させた。
 
+以下のコマンドでテストフレームワークを導入した。
+
+```bash
+npm init -y
+npm install --save-dev jest @types/jest ts-jest
+```
+
 ### ドキュメント・関連リソース
 
 - [Node.js](https://nodejs.org/)
