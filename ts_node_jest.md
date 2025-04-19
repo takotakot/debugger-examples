@@ -37,6 +37,8 @@ npm install -g typescript
 npm install --save-dev jest @types/jest ts-jest
 ```
 
+`functions.ts` に3関数を実装させた。
+
 ### ドキュメント・関連リソース
 
 - [Node.js](https://nodejs.org/)
