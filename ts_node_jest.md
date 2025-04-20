@@ -5,7 +5,7 @@
 ### 環境の準備
 
 ```shell
-# None
+npm install
 ```
 
 ### 拡張機能
