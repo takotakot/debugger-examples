@@ -10,7 +10,7 @@ npm install
 
 ### 拡張機能
 
-JavaScript Debugger ms-vscode.js-debugger
+JavaScript Debugger `ms-vscode.js-debug`
 は、予め、環境にインストールされているように見える
 
 ### デバッガの設定
