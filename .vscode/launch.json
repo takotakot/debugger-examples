@@ -4,13 +4,16 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Debug Jest Tests",
-            "program": "${workspaceFolder}/node_modules/.bin/jest",
+            "name": "Debug Vitest Tests",
+            "program": "${workspaceFolder}/node_modules/vitest/vitest.mjs",
             "args": [
-                "--runInBand"
+                "--run",
+                "--inspect-brk",
+                "--no-file-parallelism"
             ],
             "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen"
+            "internalConsoleOptions": "neverOpen",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
