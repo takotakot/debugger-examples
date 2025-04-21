@@ -29,7 +29,7 @@ code --install-extension koichisasada.vscode-rdbg
 
 ### デバッガの開始
 
-`functions.rb` を開いておきます
+必要に応じて `functions.rb` を開いておきます
 
 1. VS Code のデバッグタブを開きます
 2. 「Debug all spepc」を選択します
