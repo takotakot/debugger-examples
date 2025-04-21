@@ -78,4 +78,5 @@ RSpec のテストを作成し、各関数をテスト駆動開発で開発さ�
 
 ### ドキュメント・関連リソース
 
-- [Placeholder](https://example.com)
+- [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg)
+- [vscode-rdbg GitHub](https://github.com/ruby/vscode-rdbg)
