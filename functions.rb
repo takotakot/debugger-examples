@@ -1,7 +1,8 @@
 # sum_to_n.rb
 
 def sum_to_n(n)
-  0
+  return 0 unless n.is_a?(Integer) && n > 0
+  (1..n).sum
 end
 
 # bubble_sort.rb
