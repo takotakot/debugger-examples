@@ -5,21 +5,43 @@
 ### 環境の準備
 
 ```shell
+# ~/.ruby が /opt/ruby/2.7.7/ を指していて、rvm の ruby バージョンと異なる場合、以下を実行
+rm ~/.ruby/current
+
+bundle install
 ```
 
 ### 拡張機能
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- VSCode rdbg Ruby Debugger `koichisasada.vscode-rdbg`
 
-### デバッガの設定
+```shell
+code --install-extension koichisasada.vscode-rdbg
+```
+
+### デバッガの設定（済）
+
+`.vscode/launch.json` に一定の記述を追加する
 
 ### デバッガの開始
 
-1. Placeholder
+`functions.rb` を開いておきます
+
+1. VS Code のデバッグタブを開きます
+2. 「Debug all spepc」を選択します
+3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
 
 ### プログラムの実行・ステップ実行
+
+まず、`functions.ts` を開いておきます。
+
+1. デバッグしたいコードにブレークポイントを設定します
+    - コードの左の行番号の少し左の空白でクリックします
+    - 赤い丸が表示されます
+2. デバッグを開始 [F5] すると、ブレークポイントでコードの実行が停止します
+3. ステップオーバー、ステップイン、ステップアウトを使用してコードの流れを確認します
 
 ## 参考
 
