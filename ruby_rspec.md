@@ -21,6 +21,8 @@ bundle install
 code --install-extension koichisasada.vscode-rdbg
 ```
 
+必要に応じて、手動で、拡張機能を有効にする
+
 ### デバッガの設定（済）
 
 `.vscode/launch.json` に一定の記述を追加する
