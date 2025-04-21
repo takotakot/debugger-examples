@@ -22,5 +22,8 @@ end
 # fibonacci.rb
 
 def fibonacci(n)
-  0
+  return 0 unless n.is_a?(Integer) && n > 0
+  return n if n <= 1
+
+  fibonacci(n - 1) + fibonacci(n - 2)
 end
