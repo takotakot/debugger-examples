@@ -25,7 +25,27 @@
 
 ### 環境の準備手順
 
+以下の手順で環境を準備してください。
+
+1. `Gemfile` を作成し、以下の内容を記載します。
+
+```ruby
+source 'https://rubygems.org'
+
+gem 'rspec'
+
+```
+
+2. 以下のコマンドを実行して依存関係をインストールします。
+
 ```shell
+bundle install
+```
+
+3. インストールが完了したら、以下のコマンドで RSpec のバージョンを確認できます。
+
+```shell
+rspec --version
 ```
 
 コードを書く
