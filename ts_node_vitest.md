@@ -1,4 +1,4 @@
-# TypeScript + Node.js + Jest
+# TypeScript, Node.js, Vitest
 
 ## デバッガでステップ実行を行う手順
 
