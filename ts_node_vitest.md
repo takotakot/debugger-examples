@@ -98,4 +98,4 @@ npx ts-jest config:init
 
 - [Node.js](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/)
+- [Vitest](https://vitest.dev/)
