@@ -1,4 +1,4 @@
-# Skeleton
+# Ruby, Rspec
 
 ## デバッガでステップ実行を行う手順
 
