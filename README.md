@@ -15,10 +15,10 @@ These codes are licensed under CC0 or MIT. You can choose whichever suits your n
 
 ## 言語・テストフレームワーク
 
-- [branch](../ts_node_jest) TypeScript, Node.js, Jest
-- [branch](../ts_node_vitest) TypeScript, Node.js, Vitest
-- [branch](../ruby_rspec) Ruby, RSpec
-- [branch](../python_unittest) Python(CPython), unittest
+- [branch](../ts_node_jest/ts_node_jest.md) TypeScript, Node.js, Jest
+- [branch](../ts_node_vitest/ts_node_vitest.md) TypeScript, Node.js, Vitest
+- [branch](../ruby_rspec/ruby_rspec.md) Ruby, RSpec
+- [branch](../python_unittest/python_unittest.md) Python(CPython), unittest
 
 ## 実装する関数
 
