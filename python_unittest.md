@@ -5,16 +5,15 @@
 ### 環境の準備
 
 ```shell
-# unittest は Python 標準ライブラリの一部であり、追加インストールは不要
-# 必要に応じて以下のコマンドで確認可能
-python3 -m unittest --help
+# Python デバッグ用の拡張機能をインストール
+code --install-extension ms-python.debugpy
 ```
 
 ### 拡張機能
 
 以下をインストール:
 
-- Python (ms-python.python)
+- Python Debugger (ms-python.debugpy)
 
 ### デバッガの設定（済）
 
