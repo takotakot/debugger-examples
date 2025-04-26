@@ -142,7 +142,7 @@
     "resolve-cwd": "^3.0.0",
     "resolve-from": "^5.0.0",
     "resolve.exports": "^2.0.3",
-    "semver": "^6.3.1",
+    "semver": "^7.7.1",
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
     "signal-exit": "^3.0.7",
