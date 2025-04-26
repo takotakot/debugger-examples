@@ -76,7 +76,7 @@
     "is-arrayish": "^0.2.1",
     "is-core-module": "^2.16.1",
     "is-fullwidth-code-point": "^3.0.0",
-    "is-generator-fn": "^2.1.0",
+    "is-generator-fn": "^3.0.0",
     "is-number": "^7.0.0",
     "is-stream": "^2.0.1",
     "isexe": "^2.0.0",
