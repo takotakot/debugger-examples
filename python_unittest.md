@@ -5,12 +5,9 @@
 ### 環境の準備
 
 ```shell
-# Python のインストール (GitHub Codespaces ではデフォルトでインストール済みの可能性あり)
-python3 --version
-pip3 --version
-
-# 必要なパッケージのインストール
-pip3 install unittest
+# unittest は Python 標準ライブラリの一部であり、追加インストールは不要
+# 必要に応じて以下のコマンドで確認可能
+python3 -m unittest --help
 ```
 
 ### 拡張機能
