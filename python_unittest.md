@@ -5,15 +5,31 @@
 ### 環境の準備
 
 ```shell
-# Python デバッグ用の拡張機能をインストール
-code --install-extension ms-python.debugpy
+# Python と unittest の確認
+python3 --version
+pip3 --version
+# unittest は Python 標準ライブラリの一部であり、追加インストールは不要
+# 必要に応じて以下のコマンドで確認可能
+python3 -m unittest --help
 ```
+
+3関数を実装させた
+
+ユニットテストを実装させた
 
 ### 拡張機能
 
 以下をインストール:
 
 - Python Debugger (ms-python.debugpy)
+
+### 拡張機能のインストール手順
+
+以下のコマンドを実行して、Python デバッグ用の拡張機能をインストールします。
+
+```shell
+code --install-extension ms-python.debugpy
+```
 
 ### デバッガの設定（済）
 
@@ -34,21 +50,6 @@ code --install-extension ms-python.debugpy
 3. ステップオーバー、ステップイン、ステップアウトを使用してコードの流れを確認します
 
 ## 参考
-
-### 環境の準備手順
-
-```shell
-# Python と unittest の確認
-python3 --version
-pip3 --version
-# unittest は Python 標準ライブラリの一部であり、追加インストールは不要
-# 必要に応じて以下のコマンドで確認可能
-python3 -m unittest --help
-```
-
-3関数を実装させた
-
-ユニットテストを実装させた
 
 ### ドキュメント・関連リソース
 
