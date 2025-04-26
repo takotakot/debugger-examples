@@ -4,6 +4,8 @@
 
 ### 環境の準備
 
+GitHub Codespaces 標準の環境をそのまま使用できます。
+
 ```shell
 # Python と unittest の確認
 python3 --version
@@ -13,33 +15,36 @@ pip3 --version
 python3 -m unittest --help
 ```
 
-3関数を実装させた
-
-ユニットテストを実装させた
-
 ### 拡張機能
 
 以下をインストール:
 
 - Python Debugger (ms-python.debugpy)
 
-### 拡張機能のインストール手順
-
-以下のコマンドを実行して、Python デバッグ用の拡張機能をインストールします。
-
 ```shell
 code --install-extension ms-python.debugpy
 ```
 
-### デバッガの設定（済）
+### デバッガの設定（不要）
 
-`.vscode/launch.json` に一定の記述を追加する
+事前設定は不要です。`test_functions.py` を開いてデバッグを開始できます。
 
 ### デバッガの開始
 
+`test_functions.py` を開いておきます。
+
+その1
+
 1. VS Code のデバッグタブを開きます
-2. 「Python: Current File」を選択します
-3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
+2. 「実行とデバッグ」を選択します
+3. 「Python ファイル（現在アクティブな Python ファイルをデバッグする）」を選択します
+
+その2
+
+1. `test_functions.py` を開いた状態で [F5] キーを押します
+2. 「Python ファイル（現在アクティブな Python ファイルをデバッグする）」を選択します
+
+2度目以降は、「（現在アクティブな Python ファイルをデバッグする）」の選択は不要です。
 
 ### プログラムの実行・ステップ実行
 
