@@ -1,4 +1,4 @@
-# Python と unittest を用いたデバッグ環境
+# Python, unittest
 
 ## デバッガでステップ実行を行う手順
 
