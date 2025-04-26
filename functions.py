@@ -20,6 +20,11 @@ def bubble_sort(array):
 
 def fibonacci(n):
     """
-    常に 0 を返す関数
+    正の整数 n を与えると、再帰を用いてフィボナッチ数列の n 番目の値を計算して返す
+    正の整数以外が与えられた場合は 0 を返す
     """
-    return 0
+    if n <= 0 or not isinstance(n, int):
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
