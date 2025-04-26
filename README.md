@@ -13,6 +13,13 @@ These codes are licensed under CC0 or MIT. You can choose whichever suits your n
 
 このリポジトリ `debugger-examples` は、各種プログラミング言語とテストフレームワークを用いて、デバッガのステップ実行を体験するためのサンプルプログラムを提供する。各言語ごとにブランチを切り替えることで、異なる環境でのデバッグ体験を学ぶことができる。
 
+## 言語・テストフレームワーク
+
+- [branch](../ts_node_jest) TypeScript, Node.js, Jest
+- [branch](../ts_node_vitest) TypeScript, Node.js, Vitest
+- [branch](../ruby_rspec) Ruby, RSpec
+- [branch](../python_unittest) Python(CPython), unittest
+
 ## 実装する関数
 
 各言語で以下の関数を実装し、それぞれに対応するユニットテストを作成する。
