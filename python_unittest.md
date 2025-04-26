@@ -42,8 +42,14 @@ python3 -m unittest --help
 # Python と unittest の確認
 python3 --version
 pip3 --version
-pip3 install unittest
+# unittest は Python 標準ライブラリの一部であり、追加インストールは不要
+# 必要に応じて以下のコマンドで確認可能
+python3 -m unittest --help
 ```
+
+3関数を実装させた
+
+ユニットテストを実装させた
 
 ### ドキュメント・関連リソース
 
