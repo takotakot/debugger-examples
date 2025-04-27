@@ -5,6 +5,11 @@
 ### 環境の準備
 
 ```shell
+php -v
+# ~/.php が /opt/php/8.0.30 を指していて、PHP のバージョンが 8.3 ではない場合は、以下を実行
+rm ~/.php/current
+ln -s /usr/local/php/current ~/.php/current
+
 # Composer を使用して依存関係をインストール
 composer install
 ```
