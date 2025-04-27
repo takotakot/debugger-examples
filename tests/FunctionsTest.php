@@ -45,4 +45,21 @@ class FunctionsTest extends TestCase
         // Assert
         $this->assertEquals([1, 2, 3, 5, 8], $result);
     }
+    
+    /**
+     * Test the fibonacci function.
+     *
+     * This test verifies that the fibonacci function correctly calculates the nth Fibonacci number.
+     */
+    public function testFibonacci()
+    {
+        // Arrange
+        $n = 8;
+
+        // Act
+        $result = fibonacci($n);
+
+        // Assert
+        $this->assertEquals(21, $result);
+    }
 }
