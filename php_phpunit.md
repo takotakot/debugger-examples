@@ -37,7 +37,9 @@
 composer require --dev phpunit/phpunit
 ```
 
-コードを書く
+3関数を書かせる
+
+3関数のユニットテストを書かせる
 
 ### ドキュメント・関連リソース
 
