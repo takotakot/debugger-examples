@@ -39,11 +39,17 @@ function bubble_sort($array) {
 }
 
 /**
- * 常に 0 を返す関数
+ * フィボナッチ数列の n 番目の値を返す関数
  *
  * @param int $n 入力整数
- * @return int 常に 0 を返す
+ * @return int フィボナッチ数列の n 番目の値
  */
 function fibonacci($n) {
-    return 0;
+    if ($n <= 0) {
+        return 0;
+    }
+    if ($n === 1) {
+        return 1;
+    }
+    return fibonacci($n - 1) + fibonacci($n - 2);
 }
