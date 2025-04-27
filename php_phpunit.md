@@ -4,11 +4,19 @@
 
 ### 環境の準備
 
+```shell
+```
+
 ### 拡張機能
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- PHP Debug (xdebug.php-debug)
+
+```shell
+# PHP Debug 拡張機能をインストール
+code --install-extension xdebug.php-debug
+```
 
 ### デバッガの設定（済）
 
