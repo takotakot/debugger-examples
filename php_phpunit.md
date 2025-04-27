@@ -4,9 +4,6 @@
 
 ### 環境の準備
 
-```shell
-```
-
 ### 拡張機能
 
 以下をインストール:
@@ -36,6 +33,8 @@
 ### 環境の準備手順
 
 ```shell
+# Composer を使用して PHPUnit をインストール
+composer require --dev phpunit/phpunit
 ```
 
 コードを書く
