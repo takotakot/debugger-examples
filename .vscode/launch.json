@@ -4,7 +4,14 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "name": "Run Composer Test",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/vendor/bin/phpunit",
+            "cwd": "${workspaceFolder}",
+            "args": ["--configuration", "phpunit.xml"]
+        },
         {
             "name": "Listen for Xdebug",
             "type": "php",
