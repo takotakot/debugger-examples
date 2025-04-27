@@ -18,12 +18,23 @@ function sum_to_n($n) {
 }
 
 /**
- * 常に与えられた配列を返す関数
+ * 与えられた配列をバブルソートアルゴリズムでソートする関数
  *
- * @param array $array 入力配列
- * @return array 入力された配列をそのまま返す
+ * @param array $array ソート対象の配列
+ * @return array ソートされた配列
  */
 function bubble_sort($array) {
+    $n = count($array);
+    for ($i = 0; $i < $n - 1; $i++) {
+        for ($j = 0; $j < $n - $i - 1; $j++) {
+            if ($array[$j] > $array[$j + 1]) {
+                // 要素の入れ替え
+                $temp = $array[$j];
+                $array[$j] = $array[$j + 1];
+                $array[$j + 1] = $temp;
+            }
+        }
+    }
     return $array;
 }
 
