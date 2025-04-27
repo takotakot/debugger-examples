@@ -55,4 +55,4 @@ composer require --dev phpunit/phpunit
 
 ### ドキュメント・関連リソース
 
-- [Placeholder](https://example.com)
+- [PHP Debug](https://marketplace.visualstudio.com/items/?itemName=xdebug.php-debug)
