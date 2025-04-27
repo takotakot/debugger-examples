@@ -27,7 +27,7 @@ code --install-extension xdebug.php-debug
 ### デバッガの開始
 
 1. VS Code のデバッグタブを開きます
-2. 「_PLACEHOLDER_」を選択します
+2. 「Run Composer Test」を選択します
 3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
 
 ### プログラムの実行・ステップ実行
