@@ -5,6 +5,8 @@
 ### 環境の準備
 
 ```shell
+# Composer を使用して依存関係をインストール
+composer install
 ```
 
 ### 拡張機能
