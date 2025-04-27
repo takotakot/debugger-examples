@@ -1,4 +1,4 @@
-# PHP と PHPUnit 環境
+# PHP, PHPUnit
 
 ## デバッガでステップ実行を行う手順
 
