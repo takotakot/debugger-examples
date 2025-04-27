@@ -1,4 +1,4 @@
-# Skeleton <- please rename
+# PHP と PHPUnit 環境
 
 ## デバッガでステップ実行を行う手順
 
