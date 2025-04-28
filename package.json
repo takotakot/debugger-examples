@@ -183,7 +183,7 @@
     "tmpl": "^1.0.5",
     "to-regex-range": "^5.0.1",
     "type-detect": "^4.1.0",
-    "type-fest": "^4.40.0",
+    "type-fest": "^4.40.1",
     "typescript": "^5.8.3",
     "undici-types": "^7.8.0",
     "update-browserslist-db": "^1.1.3",
