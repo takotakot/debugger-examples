@@ -5,13 +5,16 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "ts_node_jest"
+    open-pull-requests-limit: 30
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
     target-branch: "ts_node_vitest"
+    open-pull-requests-limit: 30
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
     target-branch: "ruby_rspec"
+    open-pull-requests-limit: 30
