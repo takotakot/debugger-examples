@@ -22,7 +22,7 @@
     "bs-logger": "^0.2.6",
     "bser": "^2.1.1",
     "buffer-from": "^1.1.2",
-    "callsites": "^3.1.0",
+    "callsites": "^4.2.0",
     "camelcase": "^5.3.1",
     "caniuse-lite": "^1.0.30001714",
     "chalk": "^4.1.2",
