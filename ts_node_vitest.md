@@ -68,13 +68,10 @@ JavaScript Debugger `ms-vscode.js-debug`
 
 ```shell
 # Node.js のインストール
-sudo apt update && sudo apt install -y nodejs npm
+# sudo apt update && sudo apt install -y nodejs npm
 
 # TypeScript のインストール
-npm install -g typescript
-
-# Jest のインストール
-npm install --save-dev jest @types/jest ts-jest
+# npm install -g typescript
 ```
 
 `functions.ts` に3関数を実装させた。
@@ -83,13 +80,8 @@ npm install --save-dev jest @types/jest ts-jest
 
 ```bash
 npm init -y
-npm install --save-dev jest @types/jest ts-jest
-```
-
-以下のコマンドで `ts-jest` の初期設定を行った。
-
-```bash
-npx ts-jest config:init
+# 不必要そうなのは全部消した
+npm install --save-dev vitest
 ```
 
 `functions.test.ts` に3関数のテストを実装させ、その後、テストを修正させた。
