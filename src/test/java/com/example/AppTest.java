@@ -19,4 +19,12 @@ public class AppTest {
         int[] result = App.bubble_sort(input);
         assertArrayEquals(expected, result, "The bubble_sort function should sort the array correctly");
     }
+
+    @Test
+    public void testFibonacci() {
+        int input = 8;
+        int expected = 21;
+        int result = App.fibonacci(input);
+        assertEquals(expected, result, "The fibonacci function should return 21 for input 8");
+    }
 }
