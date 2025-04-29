@@ -11,6 +11,6 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "takotakot",
+  "license": "MIT"
 }
