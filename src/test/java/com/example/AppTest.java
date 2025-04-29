@@ -1,5 +1,6 @@
 package com.example;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
@@ -9,5 +10,13 @@ public class AppTest {
     public void testSumToN() {
         int result = App.sum_to_n(10);
         assertEquals(55, result, "The sum_to_n function should return 55 for input 10");
+    }
+
+    @Test
+    public void testBubbleSort() {
+        int[] input = {5, 3, 8, 1, 2};
+        int[] expected = {1, 2, 3, 5, 8};
+        int[] result = App.bubble_sort(input);
+        assertArrayEquals(expected, result, "The bubble_sort function should sort the array correctly");
     }
 }
