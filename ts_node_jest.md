@@ -58,14 +58,8 @@ JavaScript Debugger `ms-vscode.js-debug`
 ### 環境の準備手順
 
 ```shell
-# Node.js のインストール
-sudo apt update && sudo apt install -y nodejs npm
-
-# TypeScript のインストール
-npm install -g typescript
-
-# Jest のインストール
-npm install --save-dev jest @types/jest ts-jest
+# Node.js のインストールは済
+node -v
 ```
 
 `functions.ts` に3関数を実装させた。
