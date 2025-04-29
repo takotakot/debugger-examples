@@ -71,4 +71,8 @@ JUnit 5 を使用するために、`pom.xml` に以下の依存関係を追加�
 
 ### ドキュメント・関連リソース
 
-- [Placeholder](https://example.com)
+- [Testing Java with Visual Studio Code](https://code.visualstudio.com/docs/java/java-testing)
+- [Running and debugging Java](https://code.visualstudio.com/docs/java/java-debugging)
+- [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug) vscjava.vscode-java-debug
+- [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) redhat.java
+- [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test) vscjava.vscode-java-test
