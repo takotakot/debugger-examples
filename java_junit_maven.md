@@ -16,6 +16,14 @@
        ```bash
        code --install-extension vscjava.vscode-java-debug
        ```
+   - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+     - コマンドラインからインストールする場合:
+       ```bash
+       code --install-extension redhat.java
+       ```
+
+この拡張機能をインストールすることで、Java のコード補完、エラーチェック、リファクタリングなどの機能が利用可能になります。
+
    - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)（推奨）
 
 これらの拡張機能をインストールすることで、Java プロジェクトのデバッグが可能になります。
