@@ -1,7 +1,8 @@
 /**
- * 正の整数 n を与えると、1 から n までの合計を計算して返す。
- * @param n - 正の整数。
- * @returns 1 から n までの合計。正の整数以外の場合は 0 を返す。
+ * 正の整数 n を与えると、1 から n までの合計を計算して返す
+ *
+ * @param n - 正の整数
+ * @returns 1 から n までの合計。正の整数以外の場合は 0 を返す
  */
 export function sum_to_n(n: number): number {
     if (n <= 0 || !Number.isInteger(n)) {
@@ -15,9 +16,10 @@ export function sum_to_n(n: number): number {
 }
 
 /**
- * 整数の配列をバブルソートでソートする関数。
- * @param array - ソート対象の整数配列。
- * @returns ソート済みの整数配列。
+ * 整数の配列をバブルソートでソートする関数
+ *
+ * @param array - ソート対象の整数配列
+ * @returns ソート済みの整数配列
  */
 export function bubble_sort(array: number[]): number[] {
     const n = array.length;
@@ -33,9 +35,10 @@ export function bubble_sort(array: number[]): number[] {
 }
 
 /**
- * フィボナッチ数列の n 番目の値を計算する関数。
- * @param n - 正の整数。
- * @returns フィボナッチ数列の n 番目の値。正の整数以外の場合は 0 を返す。
+ * フィボナッチ数列の n 番目の値を計算する関数
+ *
+ * @param n - 正の整数
+ * @returns フィボナッチ数列の n 番目の値。正の整数以外の場合は 0 を返す
  */
 export function fibonacci(n: number): number {
     if (n <= 0 || !Number.isInteger(n)) {
