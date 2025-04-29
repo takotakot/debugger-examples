@@ -10,4 +10,16 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
+    public static int sum_to_n(int n) {
+        return 0;
+    }
+
+    public static int[] bubble_sort(int[] array) {
+        return array;
+    }
+
+    public static int fibonacci(int n) {
+        return 0;
+    }
 }
