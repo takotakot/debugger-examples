@@ -55,6 +55,12 @@ public class App
      * @return the nth Fibonacci number, or 0 if n is less than or equal to 0
      */
     public static int fibonacci(int n) {
-        return 0;
+        if (n <= 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 1;
+        }
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
