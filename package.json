@@ -10,6 +10,6 @@
     "test": "vitest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "takotakot",
+  "license": "MIT"
 }
