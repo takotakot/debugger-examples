@@ -1,4 +1,4 @@
-# Skeleton <- please rename
+# Jara, JUnit, Maven
 
 ## デバッガでステップ実行を行う手順
 
