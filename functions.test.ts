@@ -1,4 +1,3 @@
-import { describe, test, expect } from 'vitest';
 import { sum_to_n, bubble_sort, fibonacci } from './functions';
 
 describe('sum_to_n', () => {
