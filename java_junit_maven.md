@@ -9,9 +9,16 @@
 
 ### 拡張機能
 
-以下をインストール:
+1. Visual Studio Code を開きます。
+2. 必要な拡張機能をインストールします。
+   - [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
+     - コマンドラインからインストールする場合:
+       ```bash
+       code --install-extension vscjava.vscode-java-debug
+       ```
+   - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)（推奨）
 
-- Placeholder Debugger for X aaaa.yyy
+これらの拡張機能をインストールすることで、Java プロジェクトのデバッグが可能になります。
 
 ### デバッガの設定（済）
 
