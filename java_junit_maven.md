@@ -41,6 +41,21 @@ mvn archetype:generate -DgroupId=com.example -DartifactId=debugger-examples -Dar
 
 コードを書く
 
+### pom.xml に依存関係を追加
+
+JUnit 5 を使用するために、`pom.xml` に以下の依存関係を追加しました。
+
+```xml
+<dependency>
+  <groupId>org.junit.jupiter</groupId>
+  <artifactId>junit-jupiter</artifactId>
+  <version>5.9.3</version>
+  <scope>test</scope>
+</dependency>
+```
+
+これにより、JUnit 5 のモダンなテスト機能を利用できます。
+
 ### ドキュメント・関連リソース
 
 - [Placeholder](https://example.com)
