@@ -21,8 +21,13 @@
        ```bash
        code --install-extension redhat.java
        ```
+   - [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
+     - コマンドラインからインストールする場合:
+       ```bash
+       code --install-extension vscjava.vscode-java-test
+       ```
 
-この拡張機能をインストールすることで、Java のコード補完、エラーチェック、リファクタリングなどの機能が利用可能になります。
+この拡張機能をインストールすることで、Visual Studio Code 内で Java のテストを簡単に実行およびデバッグできます。
 
    - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)（推奨）
 
