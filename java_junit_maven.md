@@ -36,6 +36,7 @@
 ### 環境の準備手順
 
 ```shell
+mvn archetype:generate -DgroupId=com.example -DartifactId=debugger-examples -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
 コードを書く
