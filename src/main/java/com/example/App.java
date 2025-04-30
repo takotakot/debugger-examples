@@ -11,7 +11,7 @@ public class App
         System.out.println( "Hello World!" );
     }
 
-/**
+    /**
      * Calculates the sum of integers from 1 to n.
      *
      * @param n the upper limit of the range (inclusive)
