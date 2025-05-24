@@ -52,13 +52,25 @@ code --install-extension vscjava.vscode-java-test
 
 ## 参考
 
-### 環境の準備手順
+### Maven から Gradle への移行手順
+
+1. 既存の `pom.xml` をもとに `build.gradle` を作成する
+    - 依存関係やプロジェクト情報を `build.gradle` に移す
+2. `pom.xml` を削除する
+3. 必要に応じて Gradle Wrapper (`gradlew`, `gradlew.bat`, `gradle/wrapper/`) を追加する
+    - すでにリポジトリに含まれている場合はこの手順は不要
+4. 以降のビルド・テスト・デバッグは Gradle コマンドで行う
+
+### Gradle でのビルド・テスト例
 
 ```shell
-mvn archetype:generate -DgroupId=com.example -DartifactId=debugger-examples -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+./gradlew build      # プロジェクトのビルド
+./gradlew test       # テストの実行
 ```
 
-コードを書く
+`gradle` コマンドがインストールされていれば `gradle build` なども利用可能です。
+
+---
 
 ### pom.xml に依存関係を追加
 
