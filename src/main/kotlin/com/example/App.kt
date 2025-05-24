@@ -1,66 +1,48 @@
-package com.example;
+package com.example
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-
-    /**
-     * Calculates the sum of integers from 1 to n.
-     *
-     * @param n the upper limit of the range (inclusive)
-     * @return the sum of integers from 1 to n, or 0 if n is less than or equal to 0
-     */
-    public static int sum_to_n(int n) {
-        if (n <= 0) {
-            return 0;
+class App {
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            println("Hello World!")
         }
-        int total = 0;
-        for (int i = 1; i <= n; i++) {
-            total += i;
-        }
-        return total;
-    }
 
-    /**
-     * Sorts an array of integers using the bubble sort algorithm.
-     *
-     * @param array the array of integers to be sorted
-     * @return the sorted array
-     */
-    public static int[] bubble_sort(int[] array) {
-        int n = array.length;
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
-                if (array[j] > array[j + 1]) {
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
+        /**
+         * 1からnまでの合計を計算
+         */
+        fun sumToN(n: Int): Int {
+            if (n <= 0) return 0
+            var total = 0
+            for (i in 1..n) {
+                total += i
+            }
+            return total
+        }
+
+        /**
+         * バブルソート
+         */
+        fun bubbleSort(array: IntArray): IntArray {
+            val n = array.size
+            for (i in 0 until n - 1) {
+                for (j in 0 until n - i - 1) {
+                    if (array[j] > array[j + 1]) {
+                        val temp = array[j]
+                        array[j] = array[j + 1]
+                        array[j + 1] = temp
+                    }
                 }
             }
+            return array
         }
-        return array;
-    }
 
-    /**
-     * Calculates the nth Fibonacci number using recursion.
-     *
-     * @param n the position in the Fibonacci sequence (1-based index)
-     * @return the nth Fibonacci number, or 0 if n is less than or equal to 0
-     */
-    public static int fibonacci(int n) {
-        if (n <= 0) {
-            return 0;
+        /**
+         * フィボナッチ数列
+         */
+        fun fibonacci(n: Int): Int {
+            if (n <= 0) return 0
+            if (n == 1) return 1
+            return fibonacci(n - 1) + fibonacci(n - 2)
         }
-        if (n == 1) {
-            return 1;
-        }
-        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
