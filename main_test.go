@@ -20,3 +20,10 @@ func TestBubbleSort(t *testing.T) {
 		}
 	}
 }
+
+func TestFibonacci(t *testing.T) {
+	result := Fibonacci(8)
+	if result != 21 {
+		t.Errorf("Fibonacci(8) = %d; want 21", result)
+	}
+}
