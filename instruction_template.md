@@ -23,7 +23,7 @@ GitHub Codespaces のデフォルト状態で不足しているパッケージ�
 
 このブランチでは、「言語名」と「実行環境」と「テストフレームワーク」で、ユニットテストを実行する仕組みを実装する。
 
-`skeleton.md` をコピーして、`ts_node_jest.md` のようなファイルを作成せよ。
+`skeleton.md` を cp コマンドでコピーして、`ts_node_jest.md` のようなファイルを作成せよ。
 
 上記を Git commit せよ。
 
