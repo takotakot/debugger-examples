@@ -4,19 +4,28 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
-            "type": "java",
-            "name": "Current File",
+            "type": "kotlin",
             "request": "launch",
-            "mainClass": "${file}"
+            "name": "Kotlin Launch",
+            "projectRoot": "${workspaceFolder}",
+            "mainClass": "com.example.App",
+            "preLaunchTask": "build"
+        },
+        {
+            "type": "kotlin",
+            "request": "attach",
+            "name": "Kotlin Attach",
+            "projectRoot": "${workspaceFolder}",
+            "port": 5005,
+            // "preLaunchTask": "build"
         },
         {
             "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "com.example.App",
-            "projectName": "debugger-examples"
-        }
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "5005",
+        },
     ]
 }
