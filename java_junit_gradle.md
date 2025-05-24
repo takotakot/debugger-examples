@@ -1,4 +1,4 @@
-# Jara, JUnit, Gradle
+# Java, JUnit, Gradle
 
 ## デバッガでステップ実行を行う手順
 
