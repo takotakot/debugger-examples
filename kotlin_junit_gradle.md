@@ -2,6 +2,9 @@
 
 ## デバッガでステップ実行を行う手順
 
+Kotlin については、「動作しない」ので、デバッガでステップ実行することができません。
+原因については可能であれば調査したいですが、現時点では不明です。
+
 ### 環境の準備（不要）
 
 ```shell
@@ -20,11 +23,13 @@ gradle --version
 - [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug) vscjava.vscode-java-debug
 - [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java) redhat.java
 - [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test) vscjava.vscode-java-test
+- [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin) fwcd.kotlin
 
 ```shell
 code --install-extension vscjava.vscode-java-debug
 code --install-extension redhat.java
 code --install-extension vscjava.vscode-java-test
+code --install-extension fwcd.kotlin
 ```
 
 ### デバッガの設定（済）
