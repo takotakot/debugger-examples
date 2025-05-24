@@ -18,3 +18,15 @@ updates:
       interval: "weekly"
     target-branch: "ruby_rspec"
     open-pull-requests-limit: 30
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "java_junit_maven"
+    open-pull-requests-limit: 30
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "java_junit_gradle"
+    open-pull-requests-limit: 30
