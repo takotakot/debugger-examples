@@ -1,16 +1,16 @@
-# Jara, JUnit, Maven
+# Jara, JUnit, Gradle
 
 ## デバッガでステップ実行を行う手順
 
 ### 環境の準備（不要）
 
 ```shell
-# バージョン確認
-# Java のバージョンが古くても動作には問題がない
+# Java のバージョン確認
 java --version
-mvn --version
+# Gradle のバージョン確認
+gradle --version
 # コードのコンパイル
-mvn compile
+./gradlew build
 ```
 
 ### 拡張機能
@@ -79,6 +79,7 @@ JUnit 5 を使用するために、`build.gradle` に以下の依存関係を追
 ```groovy
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.13.0-M2'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.13.0-M2'
 }
 ```
 
