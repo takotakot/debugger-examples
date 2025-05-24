@@ -16,8 +16,10 @@
             "type": "kotlin",
             "request": "attach",
             "name": "Kotlin Attach",
+            "hostName": "localhost",
             "projectRoot": "${workspaceFolder}",
             "port": 5005,
+            "timeout": 30000,
             // "preLaunchTask": "build"
         },
         {
