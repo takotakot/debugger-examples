@@ -8,3 +8,15 @@ func TestSumToN(t *testing.T) {
 		t.Errorf("SumToN(10) = %d; want 55", result)
 	}
 }
+
+func TestBubbleSort(t *testing.T) {
+	input := []int{5, 3, 8, 1, 2}
+	want := []int{1, 2, 3, 5, 8}
+	got := BubbleSort(input)
+	for i := range want {
+		if got[i] != want[i] {
+			t.Errorf("BubbleSort([5,3,8,1,2]) = %v; want %v", got, want)
+			break
+		}
+	}
+}
