@@ -2,7 +2,7 @@
 
 ## デバッガでステップ実行を行う手順
 
-### 環境の準備
+### 環境の準備（不要）
 
 ```shell
 go version
@@ -13,17 +13,23 @@ go version
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) golang.go
 
-### デバッガの設定（済）
+```shell
+code --install-extension golang.go
+```
 
-`.vscode/launch.json` に一定の記述を追加する
+### デバッガの設定（不要）
+
+<!-- `.vscode/launch.json` に一定の記述を追加する -->
 
 ### デバッガの開始
 
-1. VS Code のデバッグタブを開きます
-2. 「_PLACEHOLDER_」を選択します
-3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
+1. VS Code のテストタブを開きます
+2. クラス・関数のリストを開きます
+3. 必要な関数の上にマウス ホバーさせ、「テストのデバッグ」をクリックします
+
+あるいは、[main_test.go](main_test.go) を開き、テスト関数の上で右クリックし、「テストをデバッグ」を選択することでも実行できます。
 
 ### プログラムの実行・ステップ実行
 
@@ -50,4 +56,4 @@ go mod init debugger-examples
 
 ### ドキュメント・関連リソース
 
-- [Placeholder](https://example.com)
+- [Go extension golang.go](https://marketplace.visualstudio.com/items?itemName=golang.go) golang.go
