@@ -12,9 +12,19 @@ func SumToN(n int) int {
 	return total
 }
 
-// bubble_sort: 常に与えられた配列を返す
+// bubble_sort: バブルソートを行い、ソート済みの配列を返す
 func BubbleSort(array []int) []int {
-	return array
+	n := len(array)
+	result := make([]int, n)
+	copy(result, array)
+	for i := 0; i < n-1; i++ {
+		for j := 0; j < n-i-1; j++ {
+			if result[j] > result[j+1] {
+				result[j], result[j+1] = result[j+1], result[j]
+			}
+		}
+	}
+	return result
 }
 
 // fibonacci: 常に0を返す
