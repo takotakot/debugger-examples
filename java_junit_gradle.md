@@ -72,17 +72,14 @@ code --install-extension vscjava.vscode-java-test
 
 ---
 
-### pom.xml に依存関係を追加
+### build.gradle に依存関係を追加
 
-JUnit 5 を使用するために、`pom.xml` に以下の依存関係を追加しました。
+JUnit 5 を使用するために、`build.gradle` に以下の依存関係を追加しました。
 
-```xml
-<dependency>
-  <groupId>org.junit.jupiter</groupId>
-  <artifactId>junit-jupiter</artifactId>
-  <version>5.9.3</version>
-  <scope>test</scope>
-</dependency>
+```groovy
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.13.0-M2'
+}
 ```
 
 これにより、JUnit 5 のモダンなテスト機能を利用できます。
