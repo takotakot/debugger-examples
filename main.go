@@ -27,7 +27,13 @@ func BubbleSort(array []int) []int {
 	return result
 }
 
-// fibonacci: 常に0を返す
+// fibonacci: 正の整数 n なら再帰で n 番目のフィボナッチ数を返す。それ以外は0を返す
 func Fibonacci(n int) int {
-	return 0
+	if n <= 0 {
+		return 0
+	}
+	if n == 1 {
+		return 1
+	}
+	return Fibonacci(n-1) + Fibonacci(n-2)
 }
