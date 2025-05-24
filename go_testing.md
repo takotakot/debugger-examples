@@ -44,6 +44,10 @@ go version
 
 コードを書く
 
+```shell
+go mod init debugger-examples
+```
+
 ### ドキュメント・関連リソース
 
 - [Placeholder](https://example.com)
