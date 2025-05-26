@@ -9,6 +9,8 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 . $HOME/.cargo/env
 rustc --version
+# Rust 標準のテストフレームワーク（cargo test）は Rust インストール時に同梱されています
+# Cargo プロジェクトの場合、追加の導入コマンドは不要です
 ```
 
 ### 拡張機能
@@ -44,6 +46,8 @@ rustc --version
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 . $HOME/.cargo/env
 rustc --version
+# Rust 標準のテストフレームワーク（cargo test）は Rust インストール時に同梱されています
+# Cargo プロジェクトの場合、追加の導入コマンドは不要です
 ```
 
 コードを書く
