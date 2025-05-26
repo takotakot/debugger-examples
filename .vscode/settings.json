@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.testExplorer": true,
+    "rust-analyzer.runnables.extraEnv": {
+        "PATH": "${userHome}/.cargo/bin/:${env:PATH}",
+    },
+}
