@@ -5,6 +5,10 @@
 ### 環境の準備
 
 ```shell
+# Rust 言語ランタイムのインストール
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+. $HOME/.cargo/env
+rustc --version
 ```
 
 ### 拡張機能
@@ -36,6 +40,10 @@
 ### 環境の準備手順
 
 ```shell
+# Rust 言語ランタイムのインストール
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+. $HOME/.cargo/env
+rustc --version
 ```
 
 コードを書く
