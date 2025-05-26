@@ -1,4 +1,4 @@
-# Skeleton <- please rename
+# Rust + test ユニットテスト実行手順
 
 ## デバッガでステップ実行を行う手順
 
