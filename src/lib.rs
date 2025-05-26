@@ -22,7 +22,13 @@ pub fn bubble_sort<T: Ord + Clone>(array: &[T]) -> Vec<T> {
     arr
 }
 
-/// n番目のフィボナッチ数を返す（未実装: 常に0を返す）
-pub fn fibonacci(_n: i32) -> i32 {
-    0
+/// n番目のフィボナッチ数を返す。n<=0なら0、n==1なら1、再帰で計算。
+pub fn fibonacci(n: i32) -> i32 {
+    if n <= 0 {
+        0
+    } else if n == 1 {
+        1
+    } else {
+        fibonacci(n - 1) + fibonacci(n - 2)
+    }
 }
