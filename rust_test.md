@@ -17,17 +17,39 @@ rustc --version
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) vadimcn.vscode-lldb
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) rust-lang.rust-analyzer
+- [Rust Test Explorer](https://marketplace.visualstudio.com/items?itemName=swellaby.vscode-rust-test-adapter) swellaby.vscode-rust-test-adapter
+
+```shell
+code --install-extension vadimcn.vscode-lldb
+code --install-extension rust-lang.rust-analyzer
+code --install-extension swellaby.vscode-rust-test-adapter
+```
 
 ### デバッガの設定（済）
 
-`.vscode/launch.json` に一定の記述を追加する
+~~`.vscode/launch.json` に一定の記述を追加する~~
+rust-analyzer のための設定として、`.vscode/settings.json` に以下を追加すると良い。
+
+```json:settings.json
+{
+    "rust-analyzer.testExplorer": true,
+    "rust-analyzer.runnables.extraEnv": {
+        "PATH": "${userHome}/.cargo/bin/:${env:PATH}",
+    },
+}
+```
 
 ### デバッガの開始
 
-1. VS Code のデバッグタブを開きます
-2. 「_PLACEHOLDER_」を選択します
-3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
+`tests/` にあるテストファイル [`sum_to_n_test.rs`](tests/sum_to_n_test.rs) を開きます。
+
+1. VS Code のテストタブを開きます
+2. クラス・関数のリストを開きます
+3. 必要な関数の上にマウス ホバーさせ、「テストのデバッグ」をクリックします
+
+あるいは、[`sum_to_n_test.rs`](tests/sum_to_n_test.rs) を開き、テスト関数の上の、"Debug" を選択することでも実行できます。
 
 ### プログラムの実行・ステップ実行
 
@@ -54,4 +76,6 @@ rustc --version
 
 ### ドキュメント・関連リソース
 
-- [Placeholder](https://example.com)
+- [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) vadimcn.vscode-lldb
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) rust-lang.rust-analyzer
+- [Rust Test Explorer](https://marketplace.visualstudio.com/items?itemName=swellaby.vscode-rust-test-adapter) swellaby.vscode-rust-test-adapter
