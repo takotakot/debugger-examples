@@ -41,9 +41,18 @@ rust-analyzer のための設定として、`.vscode/settings.json` に以下を
 }
 ```
 
+拡張機能インストール後に `.vscode/settings.json` を一度編集して更新し、設定を読み込ませておきます。
+
 ### デバッガの開始
 
+拡張機能インストール後に `.vscode/settings.json` を一度編集して更新し、設定を読み込ませておきます。
+
 `tests/` にあるテストファイル [`sum_to_n_test.rs`](tests/sum_to_n_test.rs) を開きます。
+
+```shell
+# コマンドラインからテストが実行できることを確認しておく
+cargo test
+```
 
 1. VS Code のテストタブを開きます
 2. クラス・関数のリストを開きます
@@ -52,6 +61,8 @@ rust-analyzer のための設定として、`.vscode/settings.json` に以下を
 あるいは、[`sum_to_n_test.rs`](tests/sum_to_n_test.rs) を開き、テスト関数の上の、"Debug" を選択することでも実行できます。
 
 ### プログラムの実行・ステップ実行
+
+実装は [`lib.rs`](src/lib.rs) にあります。
 
 1. デバッグしたいコードにブレークポイントを設定します
     - コードの左の行番号の少し左の空白でクリックします
