@@ -28,7 +28,9 @@ std::vector<int> bubble_sort(const std::vector<int>& array) {
     return result;
 }
 
-// 常に0を返す
+// フィボナッチ数列: n<=0なら0, n==1なら1, それ以外は再帰
 int fibonacci(int n) {
-    return 0;
+    if (n <= 0) return 0;
+    if (n == 1) return 1;
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
