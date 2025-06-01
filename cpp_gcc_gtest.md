@@ -24,6 +24,20 @@ ls /usr/src/googletest && echo 'gtest installed'
 g++ --version && gcc --version && cmake --version && ls /usr/src/googletest
 ```
 
+### テストの実行
+
+一括
+
+```shell
+g++ -std=c++17 functions.cpp sum_to_n_test.cpp bubble_sort_test.cpp fibonacci_test.cpp -lgtest -lgtest_main -pthread -o all_tests && ./all_tests
+```
+
+個別
+
+```shell
+g++ -std=c++17 functions.cpp sum_to_n_test.cpp -lgtest -lgtest_main -pthread -o sum_to_n_test && ./sum_to_n_test
+```
+
 ### 拡張機能
 
 以下をインストール:
