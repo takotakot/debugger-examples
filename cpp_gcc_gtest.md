@@ -52,12 +52,27 @@ code --install-extension DavidSchuldenfrei.gtest-adapter
 
 ### デバッガの設定（済）
 
-`.vscode/launch.json` に一定の記述を追加する
+`.vscode/launch.json`, `.vscode/tasks.json` に一定の記述を追加する
+
+1. VS Code のテストタブを開きます
+2. 「↔ Switch Test Configuration」をクリックします
+3. 「(gdb) Launch all_tests」を選択します
+4. 「↻ リフレッシュ」を選択します
 
 ### デバッガの開始
 
+個別のテストをデバッグする方法:
+
+1. VS Code のテストタブを開きます
+2. クラス・関数のリストを開きます
+3. 必要な関数の上にマウス ホバーさせ、虫アイコンをクリックします（右クリックし「デバッグ」でも実行できます）
+
+あるいは、[sum_to_n_test.cpp](sum_to_n_test.cpp) を開き、テスト関数の上に表示される「Debug」を選択することでも実行できます。
+
+全テストを実行する方法:
+
 1. VS Code のデバッグタブを開きます
-2. 「_PLACEHOLDER_」を選択します
+2. 「(gdb) Launch all_tests」を選択します
 3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
 
 ### プログラムの実行・ステップ実行
