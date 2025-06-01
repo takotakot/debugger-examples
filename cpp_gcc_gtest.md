@@ -117,4 +117,8 @@ g++ -std=c++17 functions.cpp sum_to_n_test.cpp bubble_sort_test.cpp fibonacci_te
 
 ### ドキュメント・関連リソース
 
-- [Placeholder](https://example.com)
+- [Google Test を使ってみる（その４：VSCode拡張機能編）](https://developer.mamezou-tech.com/blogs/2022/11/20/google-test-04/)
+- [ETロボコンにおける開発環境 - Google Test Adapterとデバッガ](https://zenn.dev/fujiyamaegg/articles/d0879f8a191171)
+- [GoogleTest adapter GitHub](https://github.com/DavidSchuldenfrei/gtest-adapter)
+- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [DavidSchuldenfrei.gtest-adapter（Google Test Adapter）](https://marketplace.visualstudio.com/items?itemName=DavidSchuldenfrei.gtest-adapter)
