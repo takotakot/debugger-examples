@@ -42,7 +42,11 @@ g++ -std=c++17 functions.cpp sum_to_n_test.cpp -lgtest -lgtest_main -pthread -o 
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- [DavidSchuldenfrei.gtest-adapter（Google Test Adapter）](https://marketplace.visualstudio.com/items?itemName=DavidSchuldenfrei.gtest-adapter) https://marketplace.visualstudio.com/items?itemName=DavidSchuldenfrei.gtest-adapter
+
+```shell
+code --install-extension DavidSchuldenfrei.gtest-adapter
+```
 
 ### デバッガの設定（済）
 
