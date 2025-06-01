@@ -77,7 +77,7 @@ g++ --version && gcc --version && cmake --version && ls /usr/src/googletest
 テストの実行には以下のコマンドを使用しました。
 
 ```shell
-g++ -std=c++17 functions.cpp sum_to_n_test.cpp -lgtest -lgtest_main -pthread -o sum_to_n_test && ./sum_to_n_test
+g++ -std=c++17 functions.cpp sum_to_n_test.cpp bubble_sort_test.cpp -lgtest -lgtest_main -pthread -o all_tests && ./all_tests
 ```
 
 ### ドキュメント・関連リソース
