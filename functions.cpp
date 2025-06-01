@@ -1,6 +1,7 @@
 // functions.cpp
 // デバッグ・テスト用のダミー実装
 
+#include "functions.h"
 #include <vector>
 
 // 常に0を返す
