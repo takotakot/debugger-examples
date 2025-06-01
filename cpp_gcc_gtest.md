@@ -42,9 +42,11 @@ g++ -std=c++17 functions.cpp sum_to_n_test.cpp -lgtest -lgtest_main -pthread -o 
 
 以下をインストール:
 
+- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 - [DavidSchuldenfrei.gtest-adapter（Google Test Adapter）](https://marketplace.visualstudio.com/items?itemName=DavidSchuldenfrei.gtest-adapter) https://marketplace.visualstudio.com/items?itemName=DavidSchuldenfrei.gtest-adapter
 
 ```shell
+code --install-extension ms-vscode.cpptools
 code --install-extension DavidSchuldenfrei.gtest-adapter
 ```
 
