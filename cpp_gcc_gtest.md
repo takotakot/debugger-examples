@@ -7,6 +7,11 @@
 ```shell
 # C++/GCC/Google Test の動作確認とインストール
 # 1. 各種バージョン・gtest の有無を確認
+#   - g++/gcc: C++/C コンパイラ
+#   - cmake: Google Test のビルドに必要
+#   - pkg-config: gtest のバージョン確認用
+#   - gtest: Google Test 本体
+#
 g++ --version && gcc --version && cmake --version && pkg-config --modversion gtest || echo 'gtest not found'
 
 # 2. Google Test をインストール
@@ -50,6 +55,11 @@ g++ --version && gcc --version && cmake --version && ls /usr/src/googletest
 ```shell
 # C++/GCC/Google Test の動作確認とインストール
 # 1. 各種バージョン・gtest の有無を確認
+#   - g++/gcc: C++/C コンパイラ
+#   - cmake: Google Test のビルドに必要
+#   - pkg-config: gtest のバージョン確認用
+#   - gtest: Google Test 本体
+#
 g++ --version && gcc --version && cmake --version && pkg-config --modversion gtest || echo 'gtest not found'
 
 # 2. Google Test をインストール
