@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build all_tests",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-std=c++17",
+                "functions.cpp",
+                "sum_to_n_test.cpp",
+                "bubble_sort_test.cpp",
+                "fibonacci_test.cpp",
+                "-lgtest",
+                "-lgtest_main",
+                "-pthread",
+                "-o",
+                "all_tests"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
