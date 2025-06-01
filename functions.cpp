@@ -4,9 +4,14 @@
 #include "functions.h"
 #include <vector>
 
-// 常に0を返す
+// sum_to_n: 1からnまでの合計（n<=0なら0）
 int sum_to_n(int n) {
-    return 0;
+    if (n <= 0) return 0;
+    int total = 0;
+    for (int i = 1; i <= n; ++i) {
+        total += i;
+    }
+    return total;
 }
 
 // 常に与えられた配列を返す
