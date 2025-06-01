@@ -14,9 +14,18 @@ int sum_to_n(int n) {
     return total;
 }
 
-// 常に与えられた配列を返す
+// バブルソート: 配列を昇順にソートして返す
 std::vector<int> bubble_sort(const std::vector<int>& array) {
-    return array;
+    std::vector<int> result = array;
+    int n = result.size();
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            if (result[j] > result[j + 1]) {
+                std::swap(result[j], result[j + 1]);
+            }
+        }
+    }
+    return result;
 }
 
 // 常に0を返す
