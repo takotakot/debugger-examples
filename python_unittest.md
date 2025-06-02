@@ -36,8 +36,9 @@ code --install-extension ms-python.debugpy
 その1
 
 1. VS Code のデバッグタブを開きます
-2. 「実行とデバッグ」を選択します
-3. 「Python ファイル（現在アクティブな Python ファイルをデバッグする）」を選択します
+2. 「Python Debugger」を選択します
+3. 「実行とデバッグ」を選択します
+4. 「Python ファイル（現在アクティブな Python ファイルをデバッグする）」を選択します
 
 その2
 
