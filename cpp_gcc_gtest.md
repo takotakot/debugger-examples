@@ -54,7 +54,11 @@ code --install-extension DavidSchuldenfrei.gtest-adapter
 
 `.vscode/launch.json`, `.vscode/tasks.json` に一定の記述を追加する
 
-1. VS Code のテストタブを開きます
+拡張機能インストール後に、設定を読み込むために、拡張機能や、Window をリロードする必要があることがあります。
+
+### デバッガの設定（初回実施）
+
+1. VS Code のテストタブ（フラスコのアイコン）を開きます
 2. 「↔ Switch Test Configuration」をクリックします
 3. 「(gdb) Launch all_tests」を選択します
 4. 「↻ リフレッシュ」を選択します
