@@ -1,4 +1,4 @@
-# Skeleton <- please rename
+# C++, GCC, Google Test
 
 ## デバッガでステップ実行を行う手順
 
