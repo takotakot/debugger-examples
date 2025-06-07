@@ -19,10 +19,24 @@ public static class Functions
         return total;
     }
 
-    // 常に与えられた配列を返す
+    // バブルソートの正しい実装
     public static int[] bubble_sort(int[] array)
     {
-        return array;
+        int n = array.Length;
+        int[] arr = (int[])array.Clone();
+        for (int i = 0; i < n - 1; i++)
+        {
+            for (int j = 0; j < n - i - 1; j++)
+            {
+                if (arr[j] > arr[j + 1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+        return arr;
     }
 
     // 常に0を返す
