@@ -43,6 +43,11 @@ dotnet --version
 
 # プロジェクトの作成と初期化
 dotnet new classlib -n DebuggerExamples && mv DebuggerExamples/Class1.cs DebuggerExamples/Functions.cs && rm -rf DebuggerExamples/Class1.cs DebuggerExamples/bin DebuggerExamples/obj
+
+# xUnit テストフレームワークの導入
+dotnet add DebuggerExamples package xunit
+# xUnit テストプロジェクトの作成
+dotnet new xunit -n DebuggerExamples.Tests
 ```
 
 コードを書く
