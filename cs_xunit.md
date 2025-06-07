@@ -5,6 +5,8 @@
 ### 環境の準備
 
 ```shell
+# .NET SDK のインストール確認
+dotnet --version
 ```
 
 ### 拡張機能
