@@ -48,9 +48,18 @@ dotnet new classlib -n DebuggerExamples && mv DebuggerExamples/Class1.cs Debugge
 dotnet add DebuggerExamples package xunit
 # xUnit テストプロジェクトの作成
 dotnet new xunit -n DebuggerExamples.Tests
+# xUnit テストフレームワークの導入
+dotnet add DebuggerExamples.Tests package xunit --version 2.9.3
 ```
 
 コードを書く
+
+```shell
+# ビルド方法
+dotnet build
+# テスト実行方法
+dotnet test DebuggerExamples.Tests
+```
 
 ### ドキュメント・関連リソース
 
