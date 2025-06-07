@@ -38,6 +38,11 @@ dotnet --version
 ### 環境の準備手順
 
 ```shell
+# .NET SDK のインストール確認
+dotnet --version
+
+# プロジェクトの作成と初期化
+dotnet new classlib -n DebuggerExamples && mv DebuggerExamples/Class1.cs DebuggerExamples/Functions.cs && rm -rf DebuggerExamples/Class1.cs DebuggerExamples/bin DebuggerExamples/obj
 ```
 
 コードを書く
