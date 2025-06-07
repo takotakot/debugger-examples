@@ -61,8 +61,8 @@ code --install-extension vadimcn.vscode-lldb
 ### デバッガの設定（初回実施）
 
 1. VS Code のテストタブ（フラスコのアイコン）を開きます
-2. 「↔ Switch Test Configuration」をクリックします
-3. 「(gdb) Launch all_tests」を選択します
+2. （必要であれば）「↔ Switch Test Configuration」をクリックします
+3. 「(lldb) Launch all_tests」を選択します
 4. 「↻ リフレッシュ」を選択します
 
 ### デバッガの開始
@@ -71,17 +71,21 @@ code --install-extension vadimcn.vscode-lldb
 
 1. VS Code のテストタブを開きます
 2. クラス・関数のリストを開きます
-3. 必要な関数の上にマウス ホバーさせ、虫アイコンをクリックします（右クリックし「デバッグ」でも実行できます）
+3. 必要な関数の上で右クリックし「Debug」で実行できます
 
 あるいは、[sum_to_n_test.cpp](sum_to_n_test.cpp) を開き、テスト関数の上に表示される「Debug」を選択することでも実行できます。
 
 全テストを実行する方法:
 
 1. VS Code のデバッグタブを開きます
-2. 「(gdb) Launch all_tests」を選択します
+2. 「(lldb) Launch all_tests」を選択します
 3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
 
+実行しても、何も起きていないように見えても、問題はありません。次の手順にしたがって、ブレークポイントを設定します（ブレークポイント設定後も何も起きない場合は何らかの設定ミスが考えられます）。
+
 ### プログラムの実行・ステップ実行
+
+[functions.cpp](functions.cpp) を開いておきます。
 
 1. デバッグしたいコードにブレークポイントを設定します
     - コードの左の行番号の少し左の空白でクリックします
