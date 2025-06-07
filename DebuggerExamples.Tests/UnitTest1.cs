@@ -1,10 +1,15 @@
-namespace DebuggerExamples.Tests;
+using Xunit;
+using DebuggerExamples;
 
-public class UnitTest1
+namespace DebuggerExamples.Tests
 {
-    [Fact]
-    public void Test1()
+    public class UnitTest1
     {
-
+        [Fact]
+        public void SumToN_Input10_Returns55()
+        {
+            int result = Functions.sum_to_n(10);
+            Assert.Equal(55, result);
+        }
     }
 }
