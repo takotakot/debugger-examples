@@ -15,7 +15,7 @@
 clang++ --version && clang --version && cmake --version && pkg-config --modversion gtest || echo 'gtest not found'
 
 # 2. Google Test をインストール
-sudo apt-get update && sudo apt-get install -y clang libgtest-dev
+sudo apt-get update && sudo apt-get install -y libgtest-dev
 
 # 3. インストール確認
 ls /usr/src/googletest && echo 'gtest installed'
@@ -102,7 +102,7 @@ code --install-extension DavidSchuldenfrei.gtest-adapter
 clang++ --version && clang --version && cmake --version && pkg-config --modversion gtest || echo 'gtest not found'
 
 # 2. Google Test をインストール
-sudo apt-get update && sudo apt-get install -y clang libgtest-dev
+sudo apt-get update && sudo apt-get install -y libgtest-dev
 
 # 3. インストール確認
 ls /usr/src/googletest && echo 'gtest installed'
