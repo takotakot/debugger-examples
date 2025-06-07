@@ -20,5 +20,12 @@ namespace DebuggerExamples.Tests
             int[] result = Functions.bubble_sort(input);
             Assert.Equal(expected, result);
         }
+
+        [Fact]
+        public void Fibonacci_Input8_Returns21()
+        {
+            int result = Functions.fibonacci(8);
+            Assert.Equal(21, result);
+        }
     }
 }
