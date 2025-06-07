@@ -4,7 +4,7 @@
         {
             "label": "build all_tests",
             "type": "shell",
-            "command": "g++",
+            "command": "clang++",
             "args": [
                 "-g",
                 "-std=c++17",

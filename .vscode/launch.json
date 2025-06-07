@@ -1,5 +1,5 @@
 {
-    // VSCode用C++デバッグ構成
+    // VSCode用C++デバッグ構成（Clangビルドバイナリ用）
     "version": "0.2.0",
     "configurations": [
         {
