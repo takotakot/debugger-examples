@@ -42,12 +42,15 @@ clang++ -std=c++17 functions.cpp sum_to_n_test.cpp -lgtest -lgtest_main -pthread
 
 以下をインストール:
 
-- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+- Optional: [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 - [DavidSchuldenfrei.gtest-adapter（Google Test Adapter）](https://marketplace.visualstudio.com/items?itemName=DavidSchuldenfrei.gtest-adapter) https://marketplace.visualstudio.com/items?itemName=DavidSchuldenfrei.gtest-adapter
+- [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
 
 ```shell
+# cpptools is optional, but recommended for C++ development.
 code --install-extension ms-vscode.cpptools
 code --install-extension DavidSchuldenfrei.gtest-adapter
+code --install-extension vadimcn.vscode-lldb
 ```
 
 ### デバッガの設定（済）
