@@ -8,11 +8,10 @@
 # C++/Clang/Google Test の動作確認とインストール
 # 1. 各種バージョン・gtest の有無を確認
 #   - clang++/clang: C++/C コンパイラ
-#   - cmake: Google Test のビルドに必要
 #   - pkg-config: gtest のバージョン確認用
 #   - gtest: Google Test 本体
 #
-clang++ --version && clang --version && cmake --version && pkg-config --modversion gtest || echo 'gtest not found'
+clang++ --version && clang --version && pkg-config --modversion gtest || echo 'gtest not found'
 
 # 2. Google Test をインストール
 sudo apt-get update && sudo apt-get install -y libgtest-dev
@@ -98,11 +97,10 @@ code --install-extension vadimcn.vscode-lldb
 # C++/Clang/Google Test の動作確認とインストール
 # 1. 各種バージョン・gtest の有無を確認
 #   - clang++/clang: C++/C コンパイラ
-#   - cmake: Google Test のビルドに必要
 #   - pkg-config: gtest のバージョン確認用
 #   - gtest: Google Test 本体
 #
-clang++ --version && clang --version && cmake --version && pkg-config --modversion gtest || echo 'gtest not found'
+clang++ --version && clang --version && pkg-config --modversion gtest || echo 'gtest not found'
 
 # 2. Google Test をインストール
 sudo apt-get update && sudo apt-get install -y libgtest-dev
