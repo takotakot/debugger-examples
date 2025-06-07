@@ -13,7 +13,13 @@ dotnet --version
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
+- [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
+
+```shell
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-dotnettools.csdevkit
+```
 
 ### デバッガの設定（済）
 
