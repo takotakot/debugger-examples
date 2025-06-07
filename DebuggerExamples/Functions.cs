@@ -39,9 +39,11 @@ public static class Functions
         return arr;
     }
 
-    // 常に0を返す
+    // フィボナッチ数列の正しい実装
     public static int fibonacci(int n)
     {
-        return 0;
+        if (n <= 0) return 0;
+        if (n == 1) return 1;
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
