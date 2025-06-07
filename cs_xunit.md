@@ -1,4 +1,4 @@
-# Skeleton <- please rename
+# CSharp, xUnit
 
 ## デバッガでステップ実行を行う手順
 
