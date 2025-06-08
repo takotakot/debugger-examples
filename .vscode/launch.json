@@ -1,0 +1,70 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "ghc",
+            "request": "launch",
+            "name": "haskell(hie-bios)",
+            "internalConsoleOptions": "openOnSessionStart",
+            "workspace": "${workspaceFolder}",
+            // "startup": "${workspaceFolder}/Main.hs",
+            "startup": "${workspaceFolder}/Spec.hs",
+            "startupFunc": "",
+            "startupArgs": "",
+            "stopOnEntry": false,
+            "mainArgs": "",
+            "ghciPrompt": "H>>= ",
+            "ghciInitialPrompt": "> ",
+            "ghciCmd": "ghci-dap",
+            "ghciEnv": {},
+            "logFile": "${workspaceFolder}/.vscode/phoityne.log",
+            "logLevel": "WARNING",
+            "forceInspect": false,
+        },
+        {
+            "type": "ghc",
+            "request": "launch",
+            "name": "haskell(stack)",
+            "internalConsoleOptions": "openOnSessionStart",
+            "workspace": "${workspaceFolder}",
+            // "startup": "${workspaceFolder}/test/Spec.hs",
+            "startup": "${workspaceFolder}/Spec.hs",
+            "startupFunc": "",
+            "startupArgs": "",
+            "stopOnEntry": false,
+            "mainArgs": "",
+            "ghciPrompt": "H>>= ",
+            "ghciInitialPrompt": "> ",
+            // "ghciCmd": "stack ghci --with-ghc=ghci-dap --test --no-load --no-build --main-is TARGET",
+            "ghciCmd": "/home/codespace/.ghcup/bin/stack ghci --with-ghc=ghci-dap --test --no-load --no-build --main-is TARGET",
+            "ghciEnv": {},
+            "logFile": "${workspaceFolder}/.vscode/phoityne.log",
+            "logLevel": "WARNING",
+            "forceInspect": false
+        },
+        {
+            "type": "ghc",
+            "request": "launch",
+            "name": "haskell(cabal)",
+            "internalConsoleOptions": "openOnSessionStart",
+            "workspace": "${workspaceFolder}",
+            // "startup": "${workspaceFolder}/app/Main.hs",
+            "startup": "${workspaceFolder}/Spec.hs",
+            "startupFunc": "",
+            "startupArgs": "",
+            "stopOnEntry": false,
+            "mainArgs": "",
+            "ghciPrompt": "H>>= ",
+            "ghciInitialPrompt": "> ",
+            "ghciCmd": "cabal repl -w ghci-dap --repl-no-load --builddir=${workspaceFolder}/.vscode/dist-cabal-repl",
+            "ghciEnv": {},
+            "logFile": "${workspaceFolder}/.vscode/phoityne.log",
+            "logLevel": "WARNING",
+            "forceInspect": false
+        }
+    ]
+}
