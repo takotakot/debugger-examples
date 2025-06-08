@@ -10,9 +10,16 @@ sum_to_n n
   | n <= 0    = 0
   | otherwise = sum [1..n]
 
--- 常に与えられた配列を返す関数
+-- バブルソートを行う関数
 bubble_sort :: [Int] -> [Int]
-bubble_sort xs = xs
+bubble_sort xs = bubbleSort xs (length xs)
+  where
+    bubbleSort xs 0 = xs
+    bubbleSort xs n = bubbleSort (pass xs) (n-1)
+    pass (x:y:zs)
+      | x > y     = y : pass (x:zs)
+      | otherwise = x : pass (y:zs)
+    pass xs = xs
 
 -- 常に 0 を返す関数
 fibonacci :: Int -> Int
