@@ -2,16 +2,31 @@
 
 ## デバッガでステップ実行を行う手順
 
+非推奨
+
 ### 環境の準備
 
 ```shell
+sudo apt-get update && sudo apt-get install -y ghc cabal-install
+cabal update && cabal install hspec
+cabal install ghci-dap haskell-debug-adapter
+
+# 以下が良いかもしれない
+# HLS のインストールには Y を回答する
+# curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 ```
 
 ### 拡張機能
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- [Haskell](https://marketplace.visualstudio.com/items?itemName=haskell.haskell) https://marketplace.visualstudio.com/items?itemName=haskell.haskell
+- [Haskell GHCi Debug Adapter Phoityne](https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode) https://marketplace.visualstudio.com/items?itemName=phoityne.phoityne-vscode
+
+```shell
+code --install-extension haskell.haskell
+code --install-extension phoityne.phoityne-vscode
+```
 
 ### デバッガの設定（済）
 
@@ -20,7 +35,7 @@
 ### デバッガの開始
 
 1. VS Code のデバッグタブを開きます
-2. 「_PLACEHOLDER_」を選択します
+2. 「haaskell(stack)」を選択します
 3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
 
 ### プログラムの実行・ステップ実行
@@ -47,6 +62,12 @@ cabal update && cabal install hspec
 
 ```shell
 runhaskell Spec.hs
+```
+
+### デバッグ準備
+
+```shell
+cabal install ghci-dap haskell-debug-adapter
 ```
 
 ### ドキュメント・関連リソース
