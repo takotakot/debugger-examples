@@ -21,6 +21,9 @@ bubble_sort xs = bubbleSort xs (length xs)
       | otherwise = x : pass (y:zs)
     pass xs = xs
 
--- 常に 0 を返す関数
+-- フィボナッチ数列を計算する関数
 fibonacci :: Int -> Int
-fibonacci _ = 0
+fibonacci n
+  | n <= 0    = 0
+  | n == 1    = 1
+  | otherwise = fibonacci (n-1) + fibonacci (n-2)
