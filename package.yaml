@@ -1,0 +1,19 @@
+name: debugger-examples
+
+ghc-options: -Wall
+
+dependencies:
+ - base == 4.*
+
+# library:
+#   source-dirs: src
+library:
+  source-dirs: .
+
+tests:
+  spec:
+    defaults: hspec/hspec@main
+    dependencies:
+      - base
+      - hspec
+      - debugger-examples

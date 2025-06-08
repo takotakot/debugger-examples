@@ -69,6 +69,23 @@ ENTER
 
 ENTER
 
+完了後に、別のターミナルを開く
+
+```shell
+# cabal update
+# cabal install hspec
+# cabal install haskell-dap ghci-dap
+# cabal install stack
+# cabal install haskell-debug-adapter
+
+# try
+ghcup install ghc --set recommended
+
+stack update
+stack install hspec haskell-dap ghci-dap haskell-debug-adapter
+```
+
+
 ### 拡張機能
 
 以下をインストール:

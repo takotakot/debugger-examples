@@ -1,0 +1,6 @@
+packages:
+- .
+snapshot: lts-23.24
+
+# resolver: lts-23.24
+extra-deps: []
