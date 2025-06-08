@@ -36,6 +36,8 @@
 ### 環境の準備手順
 
 ```shell
+ghc --version && cabal --version
+sudo apt-get update && sudo apt-get install -y ghc cabal-install
 ```
 
 コードを書く
