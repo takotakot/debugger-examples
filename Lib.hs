@@ -4,9 +4,11 @@ module Lib (
     fibonacci
 ) where
 
--- 常に 0 を返す関数
+-- 1 から n までの合計を返す関数。n <= 0 の場合は 0 を返す。
 sum_to_n :: Int -> Int
-sum_to_n _ = 0
+sum_to_n n
+  | n <= 0    = 0
+  | otherwise = sum [1..n]
 
 -- 常に与えられた配列を返す関数
 bubble_sort :: [Int] -> [Int]
