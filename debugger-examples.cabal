@@ -1,0 +1,54 @@
+cabal-version: 2.2
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           debugger-examples
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/debugger-examples#readme>
+homepage:       https://github.com/githubuser/debugger-examples#readme
+bug-reports:    https://github.com/githubuser/debugger-examples/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2025 Author name here
+license:        BSD-3-Clause
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/debugger-examples
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_debugger_examples
+  autogen-modules:
+      Paths_debugger_examples
+  hs-source-dirs:
+      ./
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+    , hspec >=2.7 && <3
+  default-language: Haskell2010
+
+test-suite debugger-examples-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_debugger_examples
+  autogen-modules:
+      Paths_debugger_examples
+  hs-source-dirs:
+      test
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , debugger-examples
+    , hspec >=2.7 && <3
+  default-language: Haskell2010
