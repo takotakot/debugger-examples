@@ -1,4 +1,4 @@
-# Skeleton <- please rename
+# Haskell, Hspec
 
 ## デバッガでステップ実行を行う手順
 
