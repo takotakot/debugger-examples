@@ -38,6 +38,7 @@
 ```shell
 ghc --version && cabal --version
 sudo apt-get update && sudo apt-get install -y ghc cabal-install
+cabal update && cabal install hspec
 ```
 
 コードを書く
