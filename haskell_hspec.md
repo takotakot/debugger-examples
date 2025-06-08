@@ -43,6 +43,18 @@ cabal update && cabal install hspec
 
 コードを書く
 
+### テスト実行方法
+
+```shell
+cabal update && cabal install --lib hspec && runhaskell Spec.hs
+```
+
+または
+
+```shell
+cabal install hspec && runhaskell Spec.hs
+```
+
 ### ドキュメント・関連リソース
 
 - [Placeholder](https://example.com)
