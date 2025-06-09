@@ -39,6 +39,12 @@ code --install-extension phoityne.phoityne-vscode
 
 ### デバッガの開始
 
+準備:
+
+```shell
+stack build
+```
+
 1. VS Code のデバッグタブを開きます
 2. 「haskell(stack)」を選択します
 3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
