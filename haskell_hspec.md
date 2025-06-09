@@ -45,11 +45,15 @@ code --install-extension phoityne.phoityne-vscode
 stack build
 ```
 
+[`test/Spec.hs`](test/Spec.hs) を開きます。
+
 1. VS Code のデバッグタブを開きます
 2. 「haskell(stack)」を選択します
 3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
 
 ### プログラムの実行・ステップ実行
+
+[`Lib.hs`](Lib.hs) を開きます。
 
 1. デバッグしたいコードにブレークポイントを設定します
     - コードの左の行番号の少し左の空白でクリックします
