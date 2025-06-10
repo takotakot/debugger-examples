@@ -19,6 +19,16 @@ These codes are licensed under CC0 or MIT. You can choose whichever suits your n
 - [branch ts_node_vitest](../ts_node_vitest/ts_node_vitest.md) TypeScript, Node.js, Vitest
 - [branch ruby_rspec](../ruby_rspec/ruby_rspec.md) Ruby, RSpec
 - [branch python_unittest](../python_unittest/python_unittest.md) Python(CPython), unittest
+- [branch php_phpunit](../php_phpunit/php_phpunit.md) PHP, PHPUnit
+- [branch java_junit_maven](../java_junit_maven/java_junit_maven.md) Java, JUnit, Maven
+- [branch java_junit_gradle](../java_junit_gradle/java_junit_gradle.md) Java, JUnit, Gradle
+- ~~[branch kotlin_junit_gradle](../kotlin_junit_gradle/kotlin_junit_gradle.md) Kotlin, JUnit, Gradle~~ （動作せず、非推奨）
+- [branch go_testing](../go_testing/go_testing.md) Go, testing
+- [branch rust_test](../rust_test/rust_test.md) Rust, test
+- [branch cpp_gcc_gtest](../cpp_gcc_gtest/cpp_gcc_gtest.md) C++, GCC, Google Test
+- [branch cpp_clang_gtest](../cpp_clang_gtest/cpp_clang_gtest.md) C++, Clang, Google Test
+- [branch cs_xunit](../cs_xunit/cs_xunit.md) C# (CSharp), xUnit
+- [branch haskell_hspec](../haskell_hspec/haskell_hspec.md) Haskell, Hspec （準備時間長）
 
 ## 実装する関数
 
@@ -37,7 +47,7 @@ These codes are licensed under CC0 or MIT. You can choose whichever suits your n
 
 ## 各ブランチの内容
 
-各ブランチには、以下の情報を記載する。
+各ブランチには、以下の情報を記載する。基本的に、`[ブランチ名].md` ファイルに記載されている。
 
 1. **環境の準備手順**
    - 必要なツールや依存関係のインストール方法
