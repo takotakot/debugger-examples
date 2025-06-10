@@ -36,9 +36,27 @@ updates:
       interval: "weekly"
     target-branch: "java_junit_gradle"
     open-pull-requests-limit: 30
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "kotlin_junit_gradle"
+    open-pull-requests-limit: 30
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
     target-branch: "go_testing"
+    open-pull-requests-limit: 30
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "rust_test"
+    open-pull-requests-limit: 30
+  - package-ecosystem: "dotnet-sdk"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "cs_xunit"
     open-pull-requests-limit: 30
