@@ -1,4 +1,4 @@
-# Skeleton <- please rename
+# Go, testing
 
 ## デバッガでステップ実行を行う手順
 
