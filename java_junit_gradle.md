@@ -44,6 +44,8 @@ code --install-extension vscjava.vscode-java-test
 
 ### プログラムの実行・ステップ実行
 
+`src/main/java/com/example` にある、関数が実装してあるファイル [`App.java`](src/main/java/com/example/App.java) を開きます。
+
 1. デバッグしたいコードにブレークポイントを設定します
     - コードの左の行番号の少し左の空白でクリックします
     - 赤い丸が表示されます
