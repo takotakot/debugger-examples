@@ -24,7 +24,9 @@ List<int> bubble_sort(List<int> array) {
   return arr;
 }
 
-// 常に0を返す関数
+// フィボナッチ数列を計算する関数
 int fibonacci(int n) {
-  return 0;
+  if (n <= 0) return 0;
+  if (n == 1) return 1;
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
