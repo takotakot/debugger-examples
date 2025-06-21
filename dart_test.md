@@ -12,24 +12,28 @@ sudo apt-get install -y apt-transport-https wget && wget -qO- https://dl-ssl.goo
 
 以下をインストール:
 
-- Placeholder Debugger for X aaaa.yyy
+- [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) Dart-Code.dart-code
 
-### デバッガの設定（済）
+### デバッガの設定（不要）
 
-`.vscode/launch.json` に一定の記述を追加する
+~~`.vscode/launch.json` に一定の記述を追加する~~
 
 ### デバッガの開始
 
-1. VS Code のデバッグタブを開きます
-2. 「_PLACEHOLDER_」を選択します
-3. 実行ボタン（緑の三角形）をクリックしてデバッグを開始します
+1. VS Code のテストタブを開きます
+2. ファイル・テストのリストを開きます
+3. 必要な関数の上にマウス ホバーさせ、「テストのデバッグ」（三角と虫の記号▷🐞）をクリックします
+
+あるいは、`test/` にあるテストファイル [`debugger_examples_test.dart`](test/debugger_examples_test.dart) を開き、テスト定義の上の"Debug"をクリックします。
 
 ### プログラムの実行・ステップ実行
+
+`lib` にある関数が実装してあるファイル [`debugger_examples.dart`](lib/debugger_examples.dart) を開きます。
 
 1. デバッグしたいコードにブレークポイントを設定します
     - コードの左の行番号の少し左の空白でクリックします
     - 赤い丸が表示されます
-2. デバッグを開始 [F5] すると、ブレークポイントでコードの実行が停止します
+2. 「デバッガの開始」の手順でテストを実行すると、ブレークポイントでコードの実行が停止します
 3. ステップオーバー、ステップイン、ステップアウトを使用してコードの流れを確認します
 
 ## 参考
@@ -48,4 +52,7 @@ dart pub add test --dev
 
 ### ドキュメント・関連リソース
 
-- [Placeholder](https://example.com)
+- [Get the Dart SDK](https://dart.dev/get-dart)
+- [Visual Studio Code](https://dart.dev/tools/vs-code) at dart.dev
+- [Dart testing](https://dart.dev/tools/testing)
+- [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) extension for VS Code
