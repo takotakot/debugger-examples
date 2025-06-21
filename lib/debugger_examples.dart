@@ -8,9 +8,20 @@ int sum_to_n(int n) {
   return total;
 }
 
-// 常に与えられた配列を返す関数
+// バブルソートを行う関数
 List<int> bubble_sort(List<int> array) {
-  return array;
+  int n = array.length;
+  List<int> arr = List.from(array);
+  for (int i = 0; i < n - 1; i++) {
+    for (int j = 0; j < n - i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        int temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+  }
+  return arr;
 }
 
 // 常に0を返す関数
