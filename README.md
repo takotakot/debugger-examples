@@ -29,6 +29,7 @@ These codes are licensed under CC0 or MIT. You can choose whichever suits your n
 - [branch cpp_clang_gtest](../cpp_clang_gtest/cpp_clang_gtest.md) C++, Clang, Google Test
 - [branch cs_xunit](../cs_xunit/cs_xunit.md) C# (CSharp), xUnit
 - [branch haskell_hspec](../haskell_hspec/haskell_hspec.md) Haskell, Hspec （準備時間長）
+- [branch dart_test](../dart_test/dart_test.md) Dart, test
 
 ## 実装する関数
 
