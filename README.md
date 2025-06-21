@@ -15,6 +15,8 @@ These codes are licensed under CC0 or MIT. You can choose whichever suits your n
 
 ## 言語・テストフレームワーク
 
+以下のリンクで各ブランチの説明用ファイルに移動できる。その後、debugger-examples のリンクをクリックすると、ブランチのトップページに移動する。「<> Code」ボタンから、GitHub Codespaces のコンテナを作成し、ローカルの VS Code からアタッチしてデバッグを行う。
+
 - [branch ts_node_jest](../ts_node_jest/ts_node_jest.md) TypeScript, Node.js, Jest
 - [branch ts_node_vitest](../ts_node_vitest/ts_node_vitest.md) TypeScript, Node.js, Vitest
 - [branch ruby_rspec](../ruby_rspec/ruby_rspec.md) Ruby, RSpec
