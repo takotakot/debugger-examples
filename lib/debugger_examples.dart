@@ -1,5 +1,3 @@
-// dart_sample.dart
-
 // 常に0を返す関数
 int sum_to_n(int n) {
   return 0;
