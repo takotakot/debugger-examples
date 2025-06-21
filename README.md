@@ -13,6 +13,10 @@ These codes are licensed under CC0 or MIT. You can choose whichever suits your n
 
 このリポジトリ `debugger-examples` は、各種プログラミング言語とテストフレームワークを用いて、デバッガのステップ実行を体験するためのサンプルプログラムを提供する。各言語ごとにブランチを切り替えることで、異なる環境でのデバッグ体験を学ぶことができる。
 
+日本語でのデモ動画を、YouTube のプレイリスト[簡単 デバッガでステップ実行](https://www.youtube.com/playlist?list=PLKpuVcbuLVe_UByoTaD-JQYlvQXRRrdtX)で公開している。動画を見ながらそのまま真似てみてほしい。
+
+動作不良等があれば、Issues に報告してほしい。
+
 ## 言語・テストフレームワーク
 
 以下のリンクで各ブランチの説明用ファイルに移動できる。その後、debugger-examples のリンクをクリックすると、ブランチのトップページに移動する。「<> Code」ボタンから、GitHub Codespaces のコンテナを作成し、ローカルの VS Code からアタッチしてデバッグを行う。
