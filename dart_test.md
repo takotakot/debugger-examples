@@ -18,6 +18,10 @@ dart pub get
 
 - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) Dart-Code.dart-code
 
+```shell
+code --install-extension Dart-Code.dart-code
+```
+
 ### デバッガの設定（不要）
 
 ~~`.vscode/launch.json` に一定の記述を追加する~~
