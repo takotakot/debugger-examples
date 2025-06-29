@@ -37,7 +37,7 @@ code --install-extension koichisasada.vscode-rdbg
 
 ### プログラムの実行・ステップ実行
 
-まず、`functions.rb` を開いておきます。
+まず、[`functions.rb`](functions.rb) を開いておきます。テストは [`spec`](spec) フォルダに定義されています。
 
 1. デバッグしたいコードにブレークポイントを設定します
     - コードの左の行番号の少し左の空白でクリックします
