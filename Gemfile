@@ -2,4 +2,4 @@ source 'https://rubygems.org'
 
 gem 'rspec'
 
-gem "debug", "~> 1.10"
+gem "debug", "~> 1.11"
