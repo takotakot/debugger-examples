@@ -4,7 +4,7 @@
   "description": "Debugger examples for many languages",
   "main": "index.js",
   "devDependencies": {
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.3"
   },
   "scripts": {
     "test": "vitest"
